@@ -45,19 +45,19 @@ a {
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media (min-width: 250px) {
+@media (min-width: 150px) {
     .mainContainer {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media (min-width: 935px) {
+@media (min-width: 735px) {
     .mainContainer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 1380px) {
+@media (min-width: 1280px) {
     .mainContainer {
         grid-template-columns: repeat(3, 1fr);
     }
